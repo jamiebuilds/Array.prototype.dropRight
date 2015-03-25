@@ -1,4 +1,4 @@
-# `Array.prototype.initial`
+# `Array.prototype.dropRight`
 
 ## Status
 
@@ -11,9 +11,9 @@ WIP strawman proposal.
 **Example:**
 
 ```js
-[1, 2, 3].initial();
+[1, 2, 3].dropRight();
 // [1, 2]
-[1, 2, 3].initial(2);
+[1, 2, 3].dropRight(2);
 // [1]
 ```
 
@@ -26,7 +26,7 @@ WIP strawman proposal.
 **Syntax**
 
 ```ts
-Array.prototype.initial(n=1): array
+Array.prototype.dropRight(n=1): array
 ```
 
 **Description**
